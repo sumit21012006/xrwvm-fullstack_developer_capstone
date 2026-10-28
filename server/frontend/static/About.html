@@ -1,7 +1,14 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <meta charset="utf-8">
+  <title>About Us - Best Cars Dealership</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+<body>
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
@@ -12,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
@@ -25,44 +32,46 @@
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
-    </div>
-    </div>
+  <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
+    <div class="banner" name="about-header" style="background-color: #f1f1f1; padding: 25px; border-radius: 5px; text-align: center;">
+      <h2>About Best Cars Dealership</h2>
+      <p style="font-size: 16px; color: #444; max-width: 800px; margin: auto;">
+        Welcome to Best Cars Dealership, a premier national automotive retailer offering top-quality vehicles, certified servicing, and transparent pricing across the United States. Founded in 2010, our team is dedicated to providing an unmatched automotive shopping and ownership experience.
+      </p>
     </div>
     
-</div>
+    <div style="display: flex; flex-direction: row; justify-content: space-around; margin: 30px auto; width: 95%;">
+      <div class="card" style="width: 30%;">
+        <img class="card-img-top" src="/static/person.png" alt="Michael Harris" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="title">Michael Harris</h5>
+          <p class="text-muted" style="font-weight: bold;">Chief Executive Officer</p>
+          <p class="card-text">Michael has over 20 years of executive leadership experience in the national automotive retail industry, driving operational innovation and customer satisfaction.</p>
+          <p><a href="mailto:michael.harris@bestcars.com">michael.harris@bestcars.com</a></p>
+        </div>
+      </div>
 
+      <div class="card" style="width: 30%;">
+        <img class="card-img-top" src="/static/person.png" alt="Sarah Jenkins" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="title">Sarah Jenkins</h5>
+          <p class="text-muted" style="font-weight: bold;">Head of Customer Experience</p>
+          <p class="card-text">Sarah leads customer engagement initiatives and ensures every customer interaction across all nationwide dealerships exceeds expectations.</p>
+          <p><a href="mailto:sarah.jenkins@bestcars.com">sarah.jenkins@bestcars.com</a></p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%;">
+        <img class="card-img-top" src="/static/person.png" alt="David Rodriguez" style="height: 250px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="title">David Rodriguez</h5>
+          <p class="text-muted" style="font-weight: bold;">National Sales Director</p>
+          <p class="card-text">David oversees dealership sales operations across all 50 states, specializing in competitive inventory curation and seamless financing solutions.</p>
+          <p><a href="mailto:david.rodriguez@bestcars.com">david.rodriguez@bestcars.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
 </html>
